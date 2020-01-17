@@ -1,0 +1,113 @@
+body{
+    padding:50px;
+}
+
+
+header{
+    font-size: 23px;
+ text-align:center;
+ background: rgb(232,116,116);
+background: linear-gradient(90deg, rgba(232,116,116,1) 16%, rgba(104,162,165,1) 53%, rgba(255,242,242,1) 100%);
+}
+
+
+main{
+    font-family:'Baskervville', serif;
+    background:#FFF2F2;
+}
+
+h2{
+    font-family: 'Baskervville', serif;
+    font-weight: 100;
+    font-style:bold;
+    color:#323031;
+    font-size: 26px;
+    line-height:1.5em;
+    
+}
+
+p{
+    font-size:18px;
+    line-height:1.3em;
+   
+}
+
+img{
+    max-width:100%;
+    height:auto;
+
+}
+
+footer{
+    text-align: center;
+    background: rgb(232,116,116);
+background: linear-gradient(90deg, rgba(232,116,116,1) 16%, rgba(104,162,165,1) 53%, rgba(255,242,242,1) 100%);
+}
+
+nav ul{
+    list-style-type: none;
+    margin:auto;
+    width:100%;
+   
+}
+
+nav ul li a {
+    text-decoration:none;
+    display:block;
+    color:#68A2A5;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    line-height: 2em;
+    text-align: center;
+    
+}
+
+nav ul li a:hover {
+    color: #E87474;
+}
+
+.third{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  
+    padding: 25pt;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    main{ 
+        display:flex;
+        justify-content:space-between;
+    }
+
+    
+    article{
+        width: 30%;
+    }
+
+    nav,ul{
+        display: flex;
+    }
+    li{
+        flex:1;
+        border:right;
+        
+    }
+    
+    nav li:last-of-type{
+        border:none;
+    }
+   
+}
+
+@media only screen and (max-width: 1200px) {
+    main{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+   
+ }
