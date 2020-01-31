@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game</title>
+
+</head>
+<body>
+
+    <h1>Game</h1>
+
+    <script>
+        let newArr = new Array(5);
+        for (var i = 0; i < 5; i++) {
+            newArr[i] = Math.floor(Math.random() * 11);
+        }
+
+        startGame();
+
+        function startGame() {
+            var num = prompt("Please enter an integer greater than or equal to 0 and less than or equal to 10");
+            if (parseInt(num)) {
+                let isOk = checkIsRight(num);
+                if (isOk) {
+                    console.log("Congratulations! You are right!");
+                } else {
+                    console.log("Sorry!You are wrong!");
+                }
+            } else {
+                console.log("You entered is not an integer");
+            }
+        }
+
+        function checkIsRight(num) {
+            let isRight = false;
+            for (var i = 0; i < newArr.length; i++) {
+                if (newArr[i] == num) {
+                    isRight = true;
+                }
+            }
+            return isRight;
+        }
+
+    </script>
+</body>
+</html>
