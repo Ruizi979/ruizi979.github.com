@@ -1,0 +1,141 @@
+body{
+   background: rgb(218, 210, 203);
+     padding:60px;
+    
+ }
+ 
+ 
+
+ 
+ img {
+    max-width:100%;
+ }
+ 
+ 
+ 
+ 
+ h1{
+   font-family: 'Crimson Pro', serif;
+    color:#535352;
+    font-size: 80px;
+    text-align: center;
+ }
+ 
+ h2{
+   font-family: 'Crimson Pro', serif;
+    color:rgb(150, 140, 125);
+    font-size:35px;
+    text-align: center;
+    padding:0.5px;
+ }
+
+ h3{
+     color:rgb(85, 73, 51);
+ }
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content:center;
+    padding:15px;
+    border-right:#F5E0CD;
+    align-items:center;
+ }
+ 
+ li {
+   background: #8b7562;
+   width: 100%;
+
+ } 
+ 
+ 
+ a {
+   font-family: 'Crimson Pro', serif;
+    color: #ffffff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+   
+  }
+ 
+      li:hover, li:active {
+   color:rgb(229, 183, 151);
+ 
+  }
+ 
+  article a{
+        color:rgb(238, 235, 228);
+  }
+ 
+  article a:hover{
+   color:rgb(117, 112, 108);
+ 
+ }
+ 
+ footer a:hover{
+   color:rgb(80, 68, 68);
+ 
+ }
+ 
+ 
+  article{
+    line-height: 2em;
+    padding:25px;
+    background-color:#939695da;
+    opacity: 0.9;
+    margin:auto;
+ 
+  }
+ 
+  p{
+     font-size: 18px;
+     color:rgb(27, 26, 26);
+     width:52%;
+     text-align: center;
+     margin:auto;
+     padding:10px;
+  }
+ 
+ time{
+   text-align: center;
+   margin:auto;
+ }
+ 
+ article{
+   text-align: center;
+   margin:auto;
+   padding:10px;
+ }
+ footer a{
+   font-family: 'Crimson Pro', serif;
+
+    color:none;
+    text-decoration: none;
+    font-style: none;
+ }
+ 
+ footer p{
+   color:#4b4b4b;
+   text-align: center;
+ }
+
+ footer h3{
+     text-align: center;
+ }
+ 
+ @media (min-width: 1085px) { 
+   img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ 
+   }
+ 
+   ul {
+     flex-wrap: nowrap;
+   }
+ }
