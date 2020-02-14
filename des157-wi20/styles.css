@@ -1,4 +1,10 @@
 
+body{
+    background: #f7eed2;
+}
+h1,h2{
+    color: rgb(36, 31, 26);
+}
 header{
     text-align: center;
 }
@@ -7,25 +13,27 @@ div{
     display:flex;
     padding-right:30px;
     
+    
 }
 
 #mySketch{
     height: 250px;
-    width: 800px;
-
-   margin:auto;
-    width:50%;
-  
+    width:1000px;
     padding:10px;
+    vertical-align: middle;
+    margin:auto;
+
+
    
 }
 
 
 section{
     flex:1;
-    background:rgb(233, 232, 232);
+    background:rgb(202, 201, 194);
     padding:10;
     margin:10px;
+    border-radius: 15px 50px 30px; 
    
     
 }
@@ -42,19 +50,27 @@ main{
     
    
 }
-
-ul,li{
-    text-decoration: none;
+li,ul {
+    list-style-type:none;
+        padding:10px;
 }
 
 a{
-    padding:10;
+    text-decoration: none;
+    padding:20;
+    line-height: 10px;
+    color:rgb(48, 37, 37);
+    
+    
 }
-
+a:hover, li:active {
+    color:rgb(255, 223, 163);
+  
+   }
 footer{
     padding:20px;
     text-align: center;
-    background:rgb(233, 232, 232);
+    background:rgb(202, 201, 194);
     margin-top: 20px;
 
 }

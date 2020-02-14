@@ -1,0 +1,59 @@
+body {
+   
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+    background-color: #f7eed2;
+    color: #463136;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+h1{
+    font-family: 'Lacquer', sans-serif;
+    font-size: 60px;
+}
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height:30%;
+        
+    }
+
+    .invisible { 
+        display: none;
+    }
+    div{
+        float: right;
+    }
+    .visible {
+        color:white;
+        display: block;
+        padding: 1em;
+        width: 30%;
+        background-color: rgb(90, 77, 77);
+        opacity:0.8;
+        position: relative;
+        border-radius: 30px;
+        line-height:25px;
+        
+          
+    }
+    footer{
+        padding:20px;
+        text-align: center;
+      
+        margin-top: 40px;
+    
+    }
+    
+    
+footer a{
+    text-decoration: none;
+    padding-bottom: 40px;
+    color:#463136;
+
+padding-top:60px;
+}

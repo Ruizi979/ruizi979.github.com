@@ -1,8 +1,8 @@
 function setup() {
     var myCanvas = createCanvas(800, 250);
-    frameRate(10);
+    frameRate(8);
     stroke(237, 166, 235);
-    background(230, 213, 168);
+    background(255, 239, 199);
     myCanvas.parent(mySketch);
   }
   
@@ -10,7 +10,7 @@ function setup() {
     if(mouseIsPressed) {
       fill(0);
     } else {
-      fill(random(255), random(255), random(255), random(255));
+      fill(random(266),random(266),random(277)) ;
     }
       var circSize = random(200);
       rect(mouseX, mouseY, circSize, circSize);
