@@ -1,0 +1,138 @@
+
+
+
+body {
+    
+    
+   text-align: center;
+    padding: 5%;
+    line-height: 1.6;
+    background:rgb(238, 212, 212);
+    margin:auto;
+}
+h1{
+    font-family: 'Lacquer', sans-serif;
+font-size:60px;
+
+}
+
+body {
+    font-family: 'Tomorrow', sans-serif;
+    background-color: white;
+    max-width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-rows: 0.25fr 1fr 0.25fr;
+    grid-template-columns: 1fr;
+    background: linear-gradient(270deg,rgb(248, 194, 194), rgb(247, 247, 224), rgb(222, 222, 255),rgb(214, 243, 252));
+    background-size: 400% 400%;
+    animation: AnimationName 10s ease infinite;
+  }
+  /*gradient animation*/
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+  
+    50% {
+      background-position: 100% 50%
+    }
+  
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  #things article img:hover {
+    transform: scale(1.1);
+    opacity: .8;
+    transition: .2s ease-in-out;
+}
+
+a { 
+    text-decoration: none; 
+    color: #A0A0A0; 
+}
+#closelaptop, #closelipcream, #closenotebook {
+    position : absolute;
+    font-size : 2em;
+    font-weight : bold;
+    top : 30px;
+    right : 30px;
+    color : #2b4653;
+    color : #83a03f;
+    opacity : 0.80;
+}
+
+#laptop, #lipcream, #notebook {
+    display : block;
+   margin:center;
+
+
+}
+
+
+#things{
+   
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+    display: grid; 
+    grid-template-columns: 50ch;
+    margin:auto;
+}
+
+
+
+footer {
+   
+    text-align: auto;
+    color: rgb(46, 34, 34); 
+    font-size:20px;
+  
+}
+footer a:hover{
+    color:rgb(80, 68, 68);
+  
+  }
+#laptop_click, #lipcream_click, #notebook_click {
+    display : none;
+    position : absolute;
+    background-color : #f0ede5;
+    top : 60%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    width : 40%;
+    height : 50%;
+    border-radius : 20px 20px 20px 20px;
+    opacity : 0.80;
+   
+ 
+}
+
+p {
+    text-align: left;
+    margin:auto;
+    color: black;
+    font-size: 20px;
+    padding:20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* declarations */
+    h1 {
+        text-align: center;
+    }
+    #things{
+        display: block;
+        margin: auto;
+      
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        display: grid; 
+        grid-template-columns: 35ch 40ch 35ch;
+        padding-bottom: 5%;
+    }
+ }
