@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Rajdhani';
+    font-size:20px;
+
+   margin:auto;
+   padding:50px;
+   text-align: left;
+   font-weight: bold;
+   line-height: 30px;
+    background: linear-gradient(270deg,rgb(250, 239, 239), rgb(250, 185, 225), rgb(248, 130, 175),rgb(245, 141, 227));
+    background-size: 400% 400%;
+    animation: AnimationName 10s ease infinite;
+  }
+  /*gradient animation*/
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+  
+    50% {
+      background-position: 100% 50%
+    }
+  
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+div{
+    text-align: center;
+}
+
+  h1{
+      text-align:center;
+      font-family: 'Indie Flower';
+      font-size: 66px;
+      
+  }
+h2{
+    text-align: center;
+    font-family: 'Indie Flower'; 
+    font-size:35px;
+
+}
+ button{
+     background:rgb(50, 250, 200);
+     border-radius:10px;
+     padding:5px;
+     text-align: center;
+ }
+ button:hover{
+     background:rgb(237, 8, 245);
+     color:white;
+ }
+
+ a { 
+  text-decoration: none; 
+  
+}
+
+footer {
+   padding-top: 20px;
+  text-align: center;
+  color: rgb(46, 34, 34); 
+  font-size:20px;
+
+}
+footer a:hover{
+  color:rgb(80, 68, 68);
+
+}
+ 
